@@ -2,6 +2,9 @@
     $FlashSize = "8MB";
     $FlashEraseBlockSize = "4k";
 
+    //$BadBlocksMarginPercent = "2";<---->// (in percent) 2% is common for NAND flashes
+    //$BadBlocksMarginMin     = "2";<---->// in erase blocks, minmum eraseblocks left for bad block handling
+
     $arFlashLayout = array 
     (
 		"loader"	=>	"4k",
